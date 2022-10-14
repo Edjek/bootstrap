@@ -16,25 +16,29 @@
         <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
-        <div class="container border rounded-3 my-5 p-3">
-            <h1 class="text-center mb-5">Mon super formulaire</h1>
-            <form class="w-75">
+        <div class="container border my-5 p-4 rounded-3">
+            <h1 class="text-center my-3">Mon super formulaire</h1>
+            <form class="w-50">
                 <div class="mb-3">
                     <label for="name" class="form-label">Pseudo</label>
                     <input type="text" class="form-control" id="name" />
                 </div>
+
                 <div class="mb-3">
                     <label for="pswd" class="form-label">Password</label>
                     <input type="password" class="form-control" id="pswd" />
                 </div>
+
                 <div class="mb-3">
                     <label for="email" class="form-label">Email</label>
                     <input type="email" class="form-control" id="email" />
                 </div>
+
                 <div class="mb-3">
                     <label for="date" class="form-label">Date</label>
                     <input type="date" class="form-control" id="date" />
                 </div>
+
                 <div class="mb-3">
                     <label for="vehicule" class="form-label">Véhicule</label>
                     <select class="form-select" id="vehicule">
@@ -42,8 +46,35 @@
                         <option value="bike">Moto</option>
                     </select>
                 </div>
-                <input type="submit" value="Envoyer" class="btn btn-outline-primary">
-                <input type="reset" value="Effacer" class="btn btn-outline-secondary">
+
+                <div class="mb-3">
+                    <label for="descritpion" class="form-label">Dites nous en plus sur vous</label>
+                    <textarea id="description" class="form-control"></textarea>
+                </div>
+
+                <div class="mb-3">
+                    <span class="me-3">quel est votre sexe?</span>
+                    <input type="radio" name="sexe" id="men" value="men" class="form-check-input" />
+                    <label for="men" class="form-check-label">homme</label>
+
+                    <input type="radio" name="sexe" id="women" value="women" />
+                    <label for="women">femme</label>
+                </div>
+
+                <div class="mb-3">
+                    <span class="me-3">Quels sont vos sport?</span>
+                    <input type="checkbox" id="tennis" class="form-check-input" value="tennis" />
+                    <label for="tennis" class="form-check-label">tennis</label>
+                    <input type="checkbox" id="" class="form-check-input" value="karate" />
+                    <label for="" class="form-check-label">karaté</label>
+                </div>
+
+                <div class="mb-3">
+                    <input type="file" class="form-control" />
+                </div>
+
+                <input type="submit" value="Envoyer" class="btn btn-outline-primary" />
+                <input type="reset" value="Effacer" class="btn btn-secondary" />
             </form>
         </div>
 

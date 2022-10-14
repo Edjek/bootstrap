@@ -1,0 +1,12 @@
+.item {
+    width: 200px;
+    height: 200px;
+}
+
+.item-1, .item-3, .item-5, .item-7 {
+    background-color: rgb(30, 78, 237);
+}
+
+.item-2, .item-4, .item-6, .item-8 {
+    background-color: rgb(42, 181, 42);
+}
