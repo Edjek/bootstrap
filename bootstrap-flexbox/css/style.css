@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+}
+
+.container-perso {
+    height: 600px;
+    border: 1px solid black;
+}
+.item {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
